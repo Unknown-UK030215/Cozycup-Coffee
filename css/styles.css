@@ -178,6 +178,21 @@ footer {
     padding: 20px 10px;
 }
 
+footer .social-media a img {
+    width: 30px;
+    height: 30px;
+}
+
+footer .footer-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+footer .footer-link a:hover {
+    color: #ffd700;
+}
+
 footer p {
     font-size: 14px;
 }
