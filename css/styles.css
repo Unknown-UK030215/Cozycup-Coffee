@@ -199,6 +199,15 @@ nav a:hover {
     color: #4c3c32;
 }
 
+.about .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #4c3c32;
+}
+
 .contact {
     padding: 100px 0;
     text-align: center;
@@ -214,6 +223,36 @@ nav a:hover {
 .contact p {
     font-size: 18px;
     margin-bottom: 40px;
+}
+
+.contact form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.contact form button {
+    padding: 10px 25px;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact form button:hover {
+    background-color: #e6c200;
 }
 
 footer {
